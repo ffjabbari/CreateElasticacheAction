@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Create an Redis DB
-      id: configservice03-redis
+      id: configservice04-redis
       uses: bitovi/github-actions-deploy-redis-db@v0.1.0
       with:
         aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
