@@ -22,5 +22,5 @@ jobs:
         aws_redis_replicas_per_node_group: 1
         aws_redis_parameter_group_name: default.redis7.cluster.on
         aws_redis_single_line_url_secret: true
-        aws_redis_in_transit_encryption: false
-        aws_redis_at_rest_encryption: false
+        aws_redis_in_transit_encryption: true
+        aws_redis_at_rest_encryption: true
