@@ -22,5 +22,4 @@ jobs:
         aws_redis_replicas_per_node_group: 1
         aws_redis_parameter_group_name: default.redis7.cluster.on
         aws_redis_single_line_url_secret: true
-
-        aws_redis_cloudwatch_log_type: slow-log,engine-log
+        
